@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+h1{
+    background: white;
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.container{
+    height: 100%;
+    display: flex;
+}
+
+#ferramentas{
+     display: flex;
+     flex-direction: column;
+     padding: 5px;
+     width: 100px;
+     background-color: #202020;
+}
+
+#ferramentas *{
+    margin-bottom: 10px;
+}
+
+#ferramentas label{
+    font-size: 15px;
+}
+
+#ferramentas input{
+    width: 100%;
+}
+
+#ferramentas button{
+    background-color:green;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 2px;
+}

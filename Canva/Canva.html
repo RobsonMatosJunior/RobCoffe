@@ -1,0 +1,25 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drawing Canvas</title>
+</head>
+<body>
+    <section class="container">
+        <div id="ferramentas">
+            <h1>Desenho</h1>
+            <label for="paleta">Paleta</label>
+            <input id=paleta name='paleta' type="color">
+            <label for="tamanhoLinha">Largura da Linha</label>
+            <input id="tamanhoLinha" name='tamanhoLinha' type="number" value="5">
+            <button id="limpar">Limpar</button>
+        </div>
+        <div class="quadro">
+            <canvas id="quadro"></canvas>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
