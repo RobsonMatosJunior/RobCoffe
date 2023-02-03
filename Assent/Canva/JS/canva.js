@@ -9,7 +9,7 @@ canvas.width = window.innerWidth - canvasOffsetX;
 canvas.height = window.innerHeight - canvasOffsetY;
 
 let isPainting = false;
-let tamanhoLinha = 5;
+let lineWidth = 5;
 let startX;
 let startY;
 
@@ -24,8 +24,8 @@ ferramentas.addEventListener('change', e => {
         ctx.strokeStyle = e.target.value;
     }
 
-    if(e.target.id === 'tamanhoLinha') {
-        tamanhoLinha = e.target.value;
+    if(e.target.id === 'lineWidth') {
+        lineWidth = e.target.value;
     }
     
 });
@@ -35,7 +35,7 @@ const draw = (e) => {
         return;
     }
 
-    ctx.tamanhoLinha = tamanhoLinha;
+    ctx.lineWidth = lineWidth;
     ctx.lineCap = 'round';
 
     ctx.lineTo(e.clientX - canvasOffsetX, e.clientY);
