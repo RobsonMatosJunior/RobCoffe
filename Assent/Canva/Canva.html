@@ -8,18 +8,30 @@
     <title>Drawing Canvas</title>
 </head>
 <body>
-    <section class="container">
-        <div id="ferramentas">
-            <h1>Desenho</h1>
-            <label for="paleta">Paleta</label>
-            <input id=paleta name='paleta' type="color">
-            <label for="tamanhoLinha">Largura da Linha</label>
-            <input id="lineWidth" name='lineWidth' type="number" value="5">
-            <button id="limpar">Limpar</button>
+    <header>
+        <div class="container-header">
+            <nav class="nav-header">  
+                <li><a href="../Main/main..html">Home</a></li>
+                <li><a href="../QRcode/QrCode.html">Qr code</a></li>
+                <li><a href="../Calculadora/calculadora.html">Calculadora</a></li>
+                <li><a href="../Canva/Canva.html">Canva</a></li>
+            </nav>
         </div>
-        <div class="quadro">
-            <canvas id="quadro"></canvas>
-        </div>
-    </section>
+    </header>
+    <main>
+        <section class="container">
+            <div id="ferramentas">
+                <h1>Desenho</h1>
+                <label for="paleta">Paleta</label>
+                <input id=paleta name='paleta' type="color">
+                <label for="tamanhoLinha">Largura da Linha</label>
+                <input id="lineWidth" name='lineWidth' type="number" value="5">
+                <button id="limpar">Limpar</button>
+            </div>
+            <div class="quadro">
+                <canvas id="quadro"></canvas>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
