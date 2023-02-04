@@ -6,7 +6,7 @@
 /* CSS da barra de navegação */
 
 header{
-    background: #BBBBBB;
+    background: #202020;
     font-family: 'Outfit', sans-serif;
 }
 
@@ -21,13 +21,15 @@ padding-bottom: 0;
 }
 
 header li{
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     margin: 0 0 0 15px;
 }
 
 header nav a {
     text-transform: uppercase;
-    color:black;
+    color:white;
     font-weight:bold;
     font-size: 22px;
     text-decoration: none;
