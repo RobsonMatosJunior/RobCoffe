@@ -31,7 +31,7 @@ h1{
 }
 
 #ferramentas *{
-    margin-bottom: 10px;
+    margin-bottom: 1.5em;
 }
 
 #ferramentas label{
@@ -50,37 +50,12 @@ h1{
     padding: 2px;
 }
 
-/* CSS da barra de navegação */
-
-footer{
-    background: #202020;
-    font-family: 'Outfit', sans-serif;
-}
-
-.container-footer{
-    padding: 30px 0;
-    width: 940px;
-}
-
-.nav-footer{
-padding-top: 0;
-padding-bottom: 0;
-}
-
-footer li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-footer nav a {
-    text-transform: uppercase;
-    color:white;
+#menu button {
+    width: 100%;
+    background-color:rgb(255, 247, 0);
+    border: none;
+    border-radius: 4px;
     font-weight:bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover{
-    color:white;
-    text-decoration: underline;
+    color: black;
+    padding: 2px;
 }
