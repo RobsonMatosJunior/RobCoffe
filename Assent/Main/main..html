@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/menu.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
     <script src="home.js"></script>
 </head>
@@ -13,15 +15,68 @@
 <!--Menu para acesso geral-->
 <body>
     <header>
-        <div class="container-header">
-            <nav class="nav-header">  
-                <li><a href="../Main/main..html">Home</a></li>
-                <li><a href="../QRcode/QrCode.html">Qr code</a></li>
-                <li><a href="../Calculadora/calculadora.html">Calculadora</a></li>
-                <li><a href="../Canva/Canva.html">Canva</a></li>
-            </nav>
-        </div>
+
+            <nav> 
+                <ul class="menu"> 
+                <li>
+                    <a href="../Main/main..html">Home</a>
+                </li>
+
+                <li>
+                    <a href="../QRcode/QrCode.html">Qr code</a>
+                </li>
+
+                <li>
+                    <a href="../Calculadora/calculadora.html">Calculadora</a>
+                </li>
+
+                <li>
+                    <a href="../Canva/Canva.html">Canva</a>
+                </li>
+            </ul>
+        </nav>
     </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="perfil">
+                <div>
+                    <span class="texto_perfil">Olá, meu nome é</span>
+                    <h1 class="nome_perfil">Robson Matos</h1>
+                    <span class="texto_perfil">sou Desenvolvedor Frontend</span>
+                </div>
+            </div>
+        </section>
+
+        <br><br><br><br>
+        
+        <section class="projetos">
+          <h2 class="Projetos-Git">Projetos:</h2>
+          <div class="projetos-container">
+  
+            <a class="card" href="" target="">
+              <img src" alt="" />
+            </a>
+  
+            <a class="card" href="" target="">
+              <img src="" alt="" />
+            </a>
+  
+            <a class="card" href="" target="">
+              <img src="" alt="" />
+            </a>
+  
+            <a class="card" href="" target="">
+              <img src="" alt="" />
+            </a>
+  
+            <a class="card" href="" target="">
+              <img src="" alt="" />
+            </a>
+        </div>
+        </section>
+
+      </main>
 
 </body>
 </html>
