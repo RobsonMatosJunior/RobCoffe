@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #b21abd;
-    --icon-color: #750f42;
+    --primary-color: #257526;
+    --icon-color: #0c1354;
   }
   
   html {
@@ -8,18 +8,10 @@
   }
   
   body {
-    display: grid;
     grid-template-areas: 'content';
     font-family: 'Ubuntu', sans-serif;
     color: #fff;
-    background-color: #000;
-  }
-  
-  main {
-    grid-area: content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: black;
   }
   
   header {
@@ -33,7 +25,19 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  main {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
+  
+  div{
+    height: 100vh;
+  }
+
   section {
     height: 100vh;
   }

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(31, 29, 33);
+    background: white(31, 29, 33);
     background: linear-gradient(230deg, rgba(82,17,114,1) 0%, rgba(57,56,58,1) 100%);
     background-size: cover;
     box-shadow: inset 0px -40px 40px #000;

@@ -5,11 +5,14 @@
     <title>Robson Junior</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/menu.css">
-    <link rel="stylesheet" href="../CSS/projetos.css">
     <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/section-tittle.css">
+    <link rel="stylesheet" href="../CSS/sobre-mim.css">
+    <link rel="stylesheet" href="../CSS/projetos.css">
+    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
     <script src="home.js"></script>
 </head>
@@ -17,44 +20,66 @@
 <!--Menu para acesso geral-->
 
 <body>
+
   <header>
     <nav class="container-header"> 
         <ul class="menu"> 
-        <li>
-            <a href="../Main/main..html">Home</a>
-        </li>
+            <li>
+                <a href="../Main/main..html">Home</a>
+            </li>
 
-        <li>
-            <a href="../QRcode/QrCode.html">Projetos</a>
-        </li>
+            <li>
+                <a href="../QRcode/QrCode.html">Projetos</a>
+            </li>
 
-        <li>
-            <a href="../Calculadora/calculadora.html">Calculadora</a>
-        </li>
+            <li>
+                <a href="../Calculadora/calculadora.html">Calculadora</a>
+            </li>
 
-        <li>
-            <a href="../Canva/Canva.html">Canva</a>
-        </li>
-    </ul>
-</nav>
-
-<Section>
-
-    <h1>Meu Portfólio</h1>
-    
-</Section>
-
+            <li>
+                <a href="../Canva/Canva.html">Canva</a>
+            </li>
+        </ul>
+    </nav>
 </header>
 
 <main>
-    <section class="card-container">
-      <h2>Sobre mim</h2>
-      <p>Olá, eu sou um desenvolvedor web e este é o meu portfólio.</p>
+    <section class="home" id="home">
+        <div class="profile">
+          <img class="profile__foto" src="" alt="" />
+          <div>
+            <span class="profile__text">Olá, meu nome é</span>
+            <h1 class="profile__name"></h1>
+            <span class="profile__text">sou Desenvolvedor Frontend</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="sobre-mim" id="sobre-mim">
+        <h2 class="section__tittle">Sobre Mim</h2>
+        <div class="description">
+          <h3 class="description__tittle">Quem sou?</h3>
+          <p class="description__text">
+          </p>
+        </div>
+
+        <div class="skills">
+        </div>
+
+        div class="skills">
+          <h3 class="skills__tittle">Skills:</h3>
+          <ul class="skills__container">
+
+           
+        </div>
     </section>
-    <section class="Projetos">
-      <h2>Meus projetos</h2>
-      <p>Confira alguns dos meus projetos recentes:</p>
-      
+
+
+            
+    <section class="projetos" id="projetos">
+        <h2 class="section__tittle">Projetos:</h2>
+        <div class="card-container">
+
       <a class="card" href="https://robsonmatosjunior.github.io/QR-Code./">
         <img src="../imagens/ezgif.com-gif-maker.gif" alt="QR Code">
       </a>
