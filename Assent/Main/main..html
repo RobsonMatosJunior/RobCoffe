@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/projetos.css">
+    <link rel="stylesheet" href="CSS/home.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
     <script src="home.js"></script>
 </head>
 
 <!--Menu para acesso geral-->
+
 <body>
   <header>
     <nav class="container-header"> 
@@ -22,7 +25,7 @@
         </li>
 
         <li>
-            <a href="../QRcode/QrCode.html">Qr code</a>
+            <a href="../QRcode/QrCode.html">Projetos</a>
         </li>
 
         <li>
@@ -34,19 +37,35 @@
         </li>
     </ul>
 </nav>
+
+<Section>
+    <h1>Meu Portfólio</h1>
+</Section>
+
 </header>
 
-    <main>
-        <section class="home" id="home">
-            <div class="perfil">
-                <div>
-                    <span class="texto_perfil">Olá, meu nome é</span>
-                    <h1 class="nome_perfil">Robson Matos</h1>
-                    <span class="texto_perfil">sou Desenvolvedor Frontend</span>
-                </div>
-            </div>
-        </section>
-      </main>
+<main>
+    <section class="card-container">
+      <h2>Sobre mim</h2>
+      <p>Olá, eu sou um desenvolvedor web e este é o meu portfólio.</p>
+    </section>
+    <section class="Projetos">
+      <h2>Meus projetos</h2>
+      <p>Confira alguns dos meus projetos recentes:</p>
+      
+      <a class="card" href="">
+        <img src="../imagens/ezgif.com-gif-maker.gif" alt="QR Code">
+      </a>
+      
+      <a class="card" href="">
+        <img src="project2.jpg" alt="Projeto 2">
+      </a>
 
+      <aclass="card" href="">
+        <img src="project3.jpg" alt="Projeto 3">
+      </a>
+      
+    </section>
+  </main>
 </body>
 </html>
