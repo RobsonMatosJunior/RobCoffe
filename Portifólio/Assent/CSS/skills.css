@@ -1,0 +1,63 @@
+.s-skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px;
+    gap: 170px;
+    background-color: #191919;
+}
+
+.article-skills {
+    width: 80%;
+    min-height: 380px;
+    min-width: 400px;
+    max-width: 450px;
+    margin-bottom: 10px;
+}
+
+.title-skills {
+    font-size: 4rem;
+    color: #fafafa;
+}
+
+.article-skills p {
+    color: #C2C1C2;
+    font-size: 2.3rem;
+}
+
+.card-name {
+    display: block;
+    margin: 20px 0 10px 0;
+    font-weight: 600;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #078810;
+}
+
+.grid-skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.card-skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid #191919;
+    border-radius: 0.1rem;
+    transition: 0.8s ease;
+    background-color: #212121;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.card-skills:hover {
+    border: 1px solid #078810;
+}
+
+.card-skills img {
+    min-width: 80px;
+}
