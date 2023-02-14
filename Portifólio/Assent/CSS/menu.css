@@ -23,6 +23,20 @@ header nav{
     outline: none;
 }
 
+.logo::before {
+    content: "<";
+    font-size: 3rem;
+    color: #078810 ;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.logo::after {
+    content: "/>";
+    font-size: 3rem;
+    color: #078810 ;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
 .menu-icon {
     display: none;
 }
