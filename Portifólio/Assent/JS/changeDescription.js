@@ -44,7 +44,7 @@ changeDescription(
 
 changeDescription(
     '.js',
-    'Manipulação de DOM, consumo de API, tipos de dados, métodos, funções e eventos.'
+    'Tipos de dados, métodos, funções e eventos.'
 )
 
 changeDescription(
@@ -54,7 +54,7 @@ changeDescription(
 
 changeDescription(
     '.responsive',
-    'Responsividade utilizando BreakPoints e propriedades de flexibilização de elementos.'   
+    'Responsividade utilizando propriedades de flexibilização de elementos.'   
 )
 
 changeDescription(
