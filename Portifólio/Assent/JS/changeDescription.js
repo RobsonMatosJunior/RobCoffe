@@ -48,8 +48,8 @@ changeDescription(
 )
 
 changeDescription(
-    '.git',
-    'Versionamento de códigos.'
+    '.Git / Github',
+    'Versionamento de códigos e Deploy'
 )
 
 changeDescription(
