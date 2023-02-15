@@ -16,7 +16,7 @@ const changeDescription = (nameCard, text) => {
             cardName.innerHTML = ' JavaScript '
         }
         if(nameCard === '.git') {
-            cardName.innerHTML = ' Git '
+            cardName.innerHTML = ' Git / Github '
         } 
         if(nameCard === '.responsive') {
             cardName.innerHTML = ' Responsividade '
@@ -48,7 +48,7 @@ changeDescription(
 )
 
 changeDescription(
-    '.Git / Github',
+    '.git',
     'Versionamento de códigos e Deploy'
 )
 
