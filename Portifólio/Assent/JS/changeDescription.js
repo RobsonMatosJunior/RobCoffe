@@ -44,7 +44,7 @@ changeDescription(
 
 changeDescription(
     '.js',
-    'Tipos de dados, métodos, funções e eventos.'
+    'Tipos de dados, métodos, manipulação de DOM, funções e eventos.'
 )
 
 changeDescription(
