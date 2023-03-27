@@ -14,9 +14,11 @@
     transition: border 1s ease;
 }
 
+/*
 .profile-about:hover {
     border: 1px solid #078810;
 }
+*/
 
 .article-about {
     max-width: 630px;
