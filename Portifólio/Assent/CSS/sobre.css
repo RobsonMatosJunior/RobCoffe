@@ -1,8 +1,8 @@
-.s-about {
+.s-about {about
     display: flex;
     justify-content: center;
     padding: 70px 20px;
-    background-color: #191919;
+    background-color: #171717;
 }
 
 .profile-about {

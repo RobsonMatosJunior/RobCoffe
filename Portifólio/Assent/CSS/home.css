@@ -1,6 +1,7 @@
 .s-home {
     display: flex;
     padding: 70px 40px;
+    background-color: #171717;
 }
 
 .article-home {
